@@ -57,21 +57,22 @@
             </div>
 
             <div class="form-div">
-                <form class="contact-form">
+                <form class="contact-form" name="submit-to-google-sheet">
                     <label for="name-input">Name</label>
-                    <input type="text" placeholder="Enter Your Name" id="name-input" value="" required>
+                    <input type="text" placeholder="Enter Your Name" id="name-input" name="Name" value="" required>
     
                     <label for="mobileno-input">Phone Number</label>
-                    <input type="number" placeholder="Enter your Mobile Number" id="mobileno-input" value="" required>
+                    <input type="number" placeholder="Enter your Mobile Number" id="mobileno-input" name="Phone_Number" value="" required>
     
                     <label for="email-input">E-mail</label>
-                    <input type="email" placeholder="Enter Your E-mail id" id="email-input" value="" required>
+                    <input type="email" placeholder="Enter Your E-mail id" id="email-input" name="Email" value="" required>
     
                     <label for="msg-inpt">Message</label>
-                    <textarea name="text" placeholder="Share Your Thoughts Here" id="msg-inpt" class="Msg-input" value="" required></textarea>
+                    <textarea placeholder="Share Your Thoughts Here" name="Message" id="msg-inpt" class="Msg-input" value="" required></textarea>
     
                     <button id="btn">Submit</button>
                 </form>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
@@ -101,6 +102,9 @@
         </div>
     </div>
 
+    <script src="JS/contact.js">
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

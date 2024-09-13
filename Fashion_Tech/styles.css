@@ -322,9 +322,10 @@
 .contact-container {
     background-color: grey;
     margin: 50px 7px;
-    padding: 30px;
+    padding: 50px;
     border-radius: 9px;
     color: #fff;
+    height: 100vh;
 }
 
 .contact-container div h2 {
@@ -343,6 +344,7 @@
 .contact-form input, textarea {
     margin-bottom: 25px;
     padding: 10px;
+    /* width: 100%; */
     border-radius: 7px;
     border: none;
     outline: none;
@@ -356,9 +358,9 @@
     font-size: 13px;
 }
 
-
 .contact-form button {
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 90px;
     padding: 7px 5px;
     background-color: #FF0000;
@@ -366,4 +368,10 @@
     border-radius: 7px;
     border: none;
     outline: none;
+}
+
+#msg {
+    color: #0bdc62;
+    margin-top: -80px;
+    display: block;
 }
